@@ -30,7 +30,7 @@ botao.addEventListener('click', () => {
         riscos.innerHTML = "Risco alto - Anorexia, Bulimia, Osteoporose e auto consumo de massa muscular, Transtornos digestivos, debilidade, fadiga crônica, stress, ansiedade e disfusões hormonais e sexuais."
         cor = "red"
         clasificacao.style.color = cor
-        img.src= "https://images7.memedroid.com/images/UPLOADED859/60038386702b8.jpeg"
+        img.src= "https://i.pinimg.com/564x/72/a1/90/72a1905f7219b1498e9dcc45d16bb366.jpg"
         img.style.width = "50%"
     }
     if(IMC >= 16 && IMC < 17){
@@ -38,7 +38,7 @@ botao.addEventListener('click', () => {
         riscos.innerHTML = "Risco alto - Anorexia, Bulimia, Osteoporose e auto consumo de massa muscular, Transtornos digestivos, debilidade, fadiga crônica, stress, ansiedade e disfusões hormonais e sexuais."
         cor = "red"
         clasificacao.style.color = cor
-        img.src= "https://images7.memedroid.com/images/UPLOADED859/60038386702b8.jpeg"
+        img.src= "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2022/03/27/luva_960-vf6he2gkm59y.jpg"
         img.style.width = "50%"
     }
     if(IMC >= 17 && IMC < 18.5){
@@ -46,7 +46,7 @@ botao.addEventListener('click', () => {
         riscos.innerHTML = "Risco moderado - Transtornos digestivos, debilidade, fadiga crônica, stress, ansiedade e disfusões hormonais."
         cor = "red"
         clasificacao.style.color = cor
-        img.src= "https://images7.memedroid.com/images/UPLOADED859/60038386702b8.jpeg"
+        img.src= "https://images3.memedroid.com/images/UPLOADED58/57164ef325ef3.jpeg"
         img.style.width = "50%"
     } 
     if(IMC > 18.4 && IMC < 25 ){
@@ -86,7 +86,7 @@ botao.addEventListener('click', () => {
         riscos.innerHTML = "Risco Muito alto - Diabetes, angina de peito, enfartes, tromboFlebites, arteroscleroses, alterações mestruais, Falta de Ar, apneia, sonolência, trombose pulmonar, úlceras varicosas, cancro do colon uterino e mamário, refluxo esofágico,disfunções sexuais, discriminação social, laboral e sexual."
         cor = "red"
         clasificacao.style.color = cor
-        img.src= "https://images7.memedroid.com/images/UPLOADED859/60038386702b8.jpeg"
+        img.src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjO6wN5gfzzAEfH6mmmW21ngtMayf5DaHq5w&usqp=CAU"
         img.style.width = "50%"
     } 
 })  
