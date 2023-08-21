@@ -2,11 +2,76 @@ input{
     padding: 2%;
     margin-bottom: 2%;
     margin-left: 5%;
-    width: 30%;
+    width: 80%;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(255, 0, 0, .2);
     font-size: 18px;
     font-family: 'Open Sans';
+}
+select{
+    padding: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    width: 85%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 0, 0, .2);
+    font-size: 18px;
+    font-family: 'Open Sans';
+}
+.container{
+    margin: auto;
+    border: 1px solid rgba(255, 0, 0, .2);
+    width: 40%;
+}
+h1{
+    font-size: 100%;
+    padding: 5%;
+}
+
+
+
+/* Botao */
+#botao {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#botao:after {
+  content: "";
+  background-color: rgba(255, 0, 0, .2);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+#botao:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+    #botao {
+    padding: 13px 50px 13px;
+  }
 }
